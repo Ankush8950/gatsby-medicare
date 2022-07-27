@@ -1,0 +1,30 @@
+.clinic-card {
+  width: 150px;
+  height: 130px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.clinic-card img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clinic-card .profession {
+  position: absolute;
+  bottom: 10%;
+  font-size: 15px;
+  font-weight: 500;
+  word-spacing: 1px;
+}

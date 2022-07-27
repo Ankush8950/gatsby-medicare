@@ -1,0 +1,116 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #F2F2F2; */
+    position: relative;
+    overflow-x: hidden ;
+    overflow-y: hidden;
+}
+
+.ovel{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(-35%,-50%);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.ovelchild{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: #F2F2F2;
+}
+
+.ovelcopy{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(10%,-40%);
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.cont-data{
+    width: 500px;
+    padding: 15px 40px ;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cont-data >h2{
+    line-height: 40px;
+}
+.cont-data > h1{
+    line-height: 60px;
+}
+
+.cont-data > p{
+    line-height: 20px;
+}
+
+.btn-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.btn-cont button{
+    padding: 0.8vw 2vw ;
+    border-radius: 20px;
+    border: none;    
+    cursor: pointer;
+}
+.btn{
+    color: white;
+    background-color: #007FF4;
+}
+.btn-dp{
+    margin-left: 4vw;
+    color: #007FF4;
+}
+
+.card{
+    width: 350px;
+    height: 400px;
+    border-radius: 14px;
+    background-color: #EBEEFF;
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+   .container{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column-reverse;
+   }     
+}

@@ -1,0 +1,45 @@
+
+.service-page .cards {
+  display: flex;
+  margin-top: 40px;
+}
+
+.service-page .cards .ser-card{
+  width: 140px;
+  height: auto;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.ser-card img{
+    height: 70px;
+}
+
+.ser-card h3{
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 500;
+} 
+
+.ser-cards .learn{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 10px;
+
+}
+
+.ser-card .learn .learn-more{
+    text-decoration: none;
+    margin-right: 15px;
+}
+

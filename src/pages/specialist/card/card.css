@@ -1,0 +1,33 @@
+.spec-cards {
+  width: 160px;
+  height: 250px;
+  /* background-color: blue; */
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  border-radius: 8px;
+}
+
+.topcard {
+  height: 75%;
+  background-color: #aed3e2;
+  border-radius: 8px  8px 0 0;
+}
+
+
+.btm-card-data{
+    height: 25%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 0 0 25px;
+}
+
+.name{
+    font-size: 15px;
+    font-weight: 500;
+}
+.specialists{
+    margin-top: 5px;
+    font-size: 10px;
+}
